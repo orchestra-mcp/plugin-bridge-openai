@@ -1,0 +1,24 @@
+{
+    "name": "orchestra-mcp/plugin-bridge-openai",
+    "description": "OpenAI API bridge plugin for Orchestra MCP — sends prompts to OpenAI-compatible APIs.",
+    "type": "tools",
+    "license": "MIT",
+    "homepage": "https://orchestra-mcp.dev",
+    "support": {
+        "issues": "https://github.com/orchestra-mcp/plugin-bridge-openai/issues",
+        "source": "https://github.com/orchestra-mcp/plugin-bridge-openai"
+    },
+    "require": {
+        "orchestra-mcp/gen-go": "^0.1.0",
+        "orchestra-mcp/sdk-go": "^0.1.0"
+    },
+    "bin": "bridge-openai",
+    "extra": {
+        "plugin-id": "bridge.openai",
+        "provides": ["tools"],
+        "provides_ai": ["openai"],
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
