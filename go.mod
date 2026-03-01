@@ -4,8 +4,8 @@ go 1.23
 
 require (
 	github.com/openai/openai-go/v3 v3.0.0
-	github.com/orchestra-mcp/gen-go v0.1.1
-	github.com/orchestra-mcp/sdk-go v0.1.1
+	github.com/orchestra-mcp/gen-go v0.1.2
+	github.com/orchestra-mcp/sdk-go v0.1.2
 	google.golang.org/protobuf v1.36.11
 )
 
